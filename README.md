@@ -20,4 +20,8 @@ MAE: $650,033
 
 Interpretation
 
-All models yielded an R-squared ($R^2$) value close to or below zero. This indicates that while the models did learn, their predictive accuracy was not substantially better than simply guessing the average price. The consistently high magnitude of the RMSE and MAE, even with log-scaling and Huber Loss, confirms the extreme high variance and the presence of significant outliers within the raw property price data, making accurate absolute prediction a major challenge for this specific dataset.🚀 Future DirectionFuture work should focus on Fine-Tuning the top-performing backbones (unfreezing pre-trained weights) and exploring Early or Mid Fusion architectures to encourage deeper interaction between the image and tabular features.
+All models yielded an R-squared ($R^2$) value close to or below zero. This indicates that while the models did learn, their predictive accuracy was not substantially better than simply guessing the average price. The consistently high magnitude of the RMSE and MAE, even with log-scaling and Huber Loss, confirms the extreme high variance and the presence of significant outliers within the raw property price data, making accurate absolute prediction a major challenge for this specific dataset.
+
+Future Direction
+
+Future work should focus on Fine-Tuning the top-performing backbones (unfreezing pre-trained weights) and exploring Early or Mid Fusion architectures to encourage deeper interaction between the image and tabular features.
